@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Ephraim</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">    
+    <link href="css/style.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#">
+                    <i class="fa fa fa-home fa-fw fa-2x"></i> <span class="light"></span> 
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#home"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#education-experience">Education & Experience</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#skills">Skills</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                     <li>
+                        <a class="page-scroll" href="#">Blog</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- <intro -->
+ <header>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <img class="img-responsive" src="img/me.png" alt="">
+                <div class="intro-text">
+                    <span class="name">Ephraim Waithaka</span>
+                    <hr class="star-light">
+                    <span class="skills">Web Application Developer </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+   
+<!-- education -->
+<section id="education-experience" class="">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h3 class="section-heading">Education & Experience</h3>
+                <h3 class="section-subheading text-muted">See my Education and work experience at a glance.</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <ul class="timeline">
+                    <li>
+                        <div class="timeline-image">
+                            <img class="img-circle img-responsive" src="img/about/obhs.png" alt="">
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>2008 - 2011</h4>
+                                <h4 class="subheading">Othaya Boys High school</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="text-muted">Graduated from High school with 74 points in my final KCSE exams.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image">
+                            <img class="img-circle img-responsive" src="img/about/safilab.jpg" alt="">
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>June 2013</h4>
+                                <h4 class="subheading">SMS, USSD and PHP training</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="text-muted">Attended a 3 day bootcamp training in SMS, USSD in PHP which was facilitated by Safaricom Academy and Ilab Africa.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-image">
+                            <img class="img-circle img-responsive" src="img/about/kbc.png" alt="">
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>Jan 2014 - April 2014 </h4>
+                                <h4 class="subheading">Kenya Broadcasting Corporation</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="text-muted">Did a 3 month internship at <a target="_blank" href="http://kbctv.co.ke/">KBC</a> with duties including: Installation of operating systems and application software, Assisted in network installation and support, PCs setup, troubleshooting and repair, Antivirus administration, Assisted in updating the ICT inventory, Live streaming of programmes for Radio and TV among others.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image">
+                            <img class="img-circle img-responsive" src="img/about/must.png" alt="">
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>2012 - 2016</h4>
+                                <h4 class="subheading">BSc Computer Science</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="text-muted">I completed my bachelors degree in Computer Science at <a target="_blank" href="http://www.must.ac.ke/">Meru University</a>. I also did a <a target="_blank" href="https://github.com/ephraimmwai/ussd_hostel_booking_application">USSD project</a> in my final year.</p>
+                            </div>
+                        </div>
+                    </li>
+                   
+                    <li>
+                        <div class="timeline-image">
+                            <img class="img-circle img-responsive" src="img/about/codepamoja.png" alt="">
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>April 2016 - present </h4>
+                                <h4 class="subheading">CodePamoja</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="text-muted">I am currently working at  <a target="_blank" href="http://codepamoja.com/">Codepamoja</a> as a backend web developer </p>
+                            </div>
+                        </div>
+                    </li>                       
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- skills -->
+<section id="skills" class="bg-light-gray">
+    <div class="container">
+      <div class="row">
+          <div class="col-lg-12 text-center">
+              <h3 class="section-heading">Skills</h3>
+              <h3 class="section-subheading text-muted">Every day i work to improve  my skills, probably add more bars or the blue color in the bars.</h3>
+          </div>
+      </div>
+     <div class="box-body skill-progress">
+        <div class="col-lg-12">
+            <div class="col-md-3 ">
+               <span class="my-skill">Agile & Scrum - project management</span>
+            </div>
+            <div class="col-md-9 ">
+               <div class="progress">
+                 <div class="progress-bar progress-bar-green" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 82%">                
+                 </div>
+               </div>
+            </div> 
+         </div>
+         <div class="col-lg-12">       
+           <div class="col-md-3 ">
+               <span class="my-skill">Wordpress Development</span>
+            </div>
+            <div class="col-md-9 ">
+               <div class="progress">
+                 <div class="progress-bar progress-bar-green" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 45%">                
+                 </div>
+               </div>
+           </div>
+         </div>
+         <div class="col-lg-12">
+           <div class="col-md-3 ">
+               <span class="my-skill">Yii2 PHP framework</span>
+            </div>
+            <div class="col-md-9 ">
+               <div class="progress">
+                 <div class="progress-bar progress-bar-green" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 55%">                
+                 </div>
+               </div>
+           </div>
+         </div>
+         <div class="col-lg-12">
+            <div class="col-md-3 ">
+               <span class="my-skill">Javascript (JQuery)</span>
+            </div>
+            <div class="col-md-9 ">
+               <div class="progress">
+                 <div class="progress-bar progress-bar-green" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 32%">                
+                 </div>
+               </div>
+            </div>
+         </div>
+         <div class="col-lg-12">
+            <div class="col-md-3 ">
+               <span class="my-skill">git</span>
+            </div>
+            <div class="col-md-9 ">
+               <div class="progress">
+                 <div class="progress-bar progress-bar-green" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 79%">                
+                 </div>
+               </div>
+            </div>
+         </div>
+         <div class="col-lg-12">
+            <div class="col-md-3 ">
+               <span class="my-skill">AngularJS</span>
+            </div>
+            <div class="col-md-9 ">
+               <div class="progress">
+                 <div class="progress-bar progress-bar-green" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 10%">                
+                 </div>
+               </div>
+           </div>
+         </div>
+         <div class="col-lg-12">
+            <div class="col-md-3 ">
+               <span class="my-skill">MySql Databases</span>
+            </div>
+            <div class="col-md-9 ">
+               <div class="progress">
+                 <div class="progress-bar progress-bar-green" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 60%">                
+                 </div>
+               </div>
+           </div>
+         </div>
+    </div>
+  </div>
+</section>
+<!-- portfolio -->
+<section id="portfolio" class="">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h3 class="section-heading">Portfolio</h3>
+                <h3 class="section-subheading text-muted">This is a collection of projects that showcases my work. This collection has played a great role in my skills buildup.</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-sm-6 portfolio-item">
+            <a href="#ussd" class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="img/portfolio/ussd.png" class="img-responsive" alt="">
+                </a>
+                <div class="portfolio-caption">
+                    <h4>USSD hostel booking application</h4>
+                    <p class="text-muted">PHP</p>
+                </div>                
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a href="#ftsf" class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-search-plus fa-2x"></i>
+                        </div>
+                    </div>
+                    <img style="margin-top: 80px;" src="img/portfolio/ftsf.jpg" class="img-responsive" alt="">
+                </a>
+                <div class="portfolio-caption">
+                    <h4 style="margin-top: 80px;">Fair Trade Software</h4>
+                    <p class="text-muted" >Wordpress development</p>
+                    <p class="text-muted">PHP, Javascript and JQuery</p>
+                </div>                
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a href="#ej" class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="img/portfolio/ej.png" class="img-responsive" alt="">
+                </a>
+                <div class="portfolio-caption">
+                    <h4><a target="_blank" href="http://ejprintsolutions.com">ejPrint Solutions</a> website</h4>
+                    <p class="text-muted">Website Design</p>
+                    <p class="text-muted">Wordpress</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+            <a href="#codepamoja-website" class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="img/portfolio/codepamoja.png" class="img-responsive" alt="">
+                </a>
+                <div class="portfolio-caption">
+                    <h4> <a target="_blank" href="http://codepamoja.com/">Codepamoja</a> Website</h4>
+                    <p class="text-muted">Wordpress Development</p>
+                    <p class="text-muted">PHP and JavaScript</p>
+                </div>
+                
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a href="#efpos" class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="img/portfolio/efpos.png" class="img-responsive" alt="">
+                </a>
+                <div class="portfolio-caption">
+                    <h4>Efpos Point of sale</h4>
+                    <p class="text-muted">Yii2 MVC framework</p>
+                    <p class="text-muted">PHP and JQuery</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a href="#ek" class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-search-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="img/portfolio/ek.png" class="img-responsive" alt="">
+                </a>
+                <div class="portfolio-caption">
+                    <h4><a target="_blank" href="http://enterprisekenya.org/">Enterprise Kenya</a></h4>
+                    <p class="text-muted">Website Design</p>
+                    <p class="text-muted">Wordpress Development</p>
+                    <p class="text-muted">PHP and JQuery</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<div class="portfolio-modal modal fade" id="codepamoja-website" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h3>codepamoja website</h3>
+                            <p class="item-intro text-muted">This is a website to digitally describe codepamoja.</p>
+                            <img src="img/portfolio/codepamoja-preview.png" class="img-responsive" alt="">
+                            <p>CodePamoja is a not-for-profit initiative to give young graduates in the Netherlands and Kenya work experience developing software to an international standard.</p>
+
+                            <p>Working in small cross-border teams participants get hands-on experience in Agile project management (Scrum) whilst working on real software development projects.</p>
+
+                            <p>CodePamoja is a Fair Trade Software project, joint-funded by Dutch IT services firm Competa IT and the Federal German Government develoPPP.de Programme</p>
+                                                           
+                            <ul class="list-inline">
+                                <li>Date: April 2016 - Present</li>
+                                <li>Client: Codepamoja</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> close </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Portfolio efpos -->
+<div class="portfolio-modal modal fade" id="efpos" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h3>EfPOS Point Of Sale</h3>
+                            <p class="item-intro text-muted">A Yii2 PHP based Point of sale.</p>
+                            <img src="img/portfolio/efpos-preview.png" class="img-responsive" alt="">
+                            <p>Efpos Point of Sale integrates feature such as MPESA integration in sales module. Checkout the <a target="_blank" href="http://ejprintsolutions.com/efpos">Demo.</a>.</p>
+                            <p class="text-muted">username: killbill<br> password: codepamoja</p>
+                            <ul class="list-inline">
+                                <li>Date: September 2016</li>
+                                <li>Client: Efpos</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary " data-dismiss="modal"><i class="fa fa-times"></i> close </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Portfolio EJ -->
+<div class="portfolio-modal modal fade" id="ej" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            
+                            <h3>Ej printsolutions</h3>
+                            <p class="item-intro text-muted">A website to market Ej print solutions business online.</p>
+                            <img src="img/portfolio/ej-preview.png" class="img-responsive" alt="">
+                            <p><a target="_blank" href="http://ejprintsolutions.com/">ejprintsolutions.com</a> is a business website that digitally showcases what ejprintsolution does.</p>
+                            <ul class="list-inline">
+                                <li>Date: June 2016</li>
+                                <li>Client: Ejprint Solutions</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> close </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ek -->
+<div class="portfolio-modal modal fade" id="ek" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            
+                            <h3>enterprise kenya portal</h3>
+                            <p class="item-intro text-muted">A website portal for ICT Authority of Kenya.</p>
+                            <img src="img/portfolio/ek-preview.png" class="img-responsive" alt="">
+                            <p>This is a website for ICT Authority in Kenya. Its portal connects innovators to investors whereby innovators pitch there projects and investors/mentors can access the projects and respective innovator's profile.</p>
+                            <ul class="list-inline">
+                                <li>Date: October 2016 - Present</li>
+                                <li>Client: ICT Authority Kenya</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> close </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Portfolio ftsf -->
+<div class="portfolio-modal modal fade" id="ftsf" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            
+                            <h3>Fair Trade software foundation website</h3>
+                            <p class="item-intro text-muted">A website for the Fair Trade Foundation in Netherlands </p>
+                           <img src="img/portfolio/ftsf-preview.jpg" class="img-responsive" alt="">
+                            <p>This is a one page website with an epic design to uniquely represent Fair Trade Software Foundation.</p>
+                            <ul class="list-inline">
+                                <li>Date: May 2016</li>
+                                <li>Client: Fair Trade Foundation (Netherlands)</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Portfolio Modal ussd-->
+<div class="portfolio-modal modal fade" id="ussd" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                           
+                            <h3>Meru university ussd application for hostel booking</h3>
+                            <p class="item-intro text-muted">A simple application to book hostel using USSD and SMS.</p>
+                            <img src="img/portfolio/ussd-preview.png" class="img-responsive" alt="">
+                            <p>A USSD and SMS application that i did while at my final year in Meru University. Students can book hostels using USSD and SMS.</p>
+                            <ul class="list-inline">
+                                <li>Date: March 2016 - April 2016</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+ <!-- contact -->
+ <section id="contact" class="bg-light-gray">
+    <div class="container">
+        <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 text-center">
+            <h3 class="section-heading">Let's get in touch. Shall we?</h3>
+            <hr class="primary">
+            <h3 class="section-subheading text-muted">Ready to start a new project, or any tech adventure? Give me a call or send me an email and i will get back to you as soon a possible.</h3>
+        </div>
+            <div class="col-lg-10 col-lg-offset-1 text-center">
+                
+                <p>CodePamoja
+                <br>Jadala Place, off Ngong rd, Nairobi</p>
+                <ul class="list-unstyled">
+                    <li><i class="fa fa-phone fa-fw"></i> +254726410942</li>
+                    <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:ephraimmai@gmail.com">ephraimmai@gmail.com</a>
+                    </li>
+                </ul>
+                <br>
+                <ul class="list-inline">
+                    <li>
+                        <a target="_blank" href="https://www.facebook.com/ephy.mwai.5"><i class="fa fa-facebook fa-fw fa-2x"></i></a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://ke.linkedin.com/in/ephraimwaithaka"><i class="fa fa-linkedin fa-fw fa-2x"></i></a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://github.com/ephraimmwai"><i class="fa fa fa-github fa-fw fa-2x"></i></a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </div>
+</section>
+ <footer>
+    <div class="container">
+        <div class="row">
+            <hr class="small">
+            <p class="text-muted">Copyright &copy; mwai ephraim 2016</p>
+        </div>
+    </div>
+     <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+</footer>
+</body>
+</html>
+     
+
+
+
+
