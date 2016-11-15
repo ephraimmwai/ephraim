@@ -1,20 +1,33 @@
+// Agency Theme JavaScript
 
-$("#nav ul li a[href^='#']").on('click', function(e) {
+(function($) {
+    "use strict"; // Start of use strict
 
-   // prevent default anchor click behavior
-   e.preventDefault();
+    // jQuery for page scrolling feature - requires jQuery Easing plugin
+    $('a.page-scroll').bind('click', function(event) {
+        var $anchor = $(this);
+        $('html, body').stop().animate({
+            scrollTop: ($($anchor.attr('href')).offset().top - 50)
+        }, 1250, 'easeInOutExpo');
+        event.preventDefault();
+    });
 
-   // store hash
-   var hash = this.hash;
+    // Highlight the top nav as scrolling occurs
+    $('body').scrollspy({
+        target: '.navbar-fixed-top',
+        offset: 51
+    });
 
-   // animate
-   $('html, body').animate({
-       scrollTop: $(hash).offset().top
-     }, 3300, function(){
+    // Closes the Responsive Menu on Menu Item Click
+    $('.navbar-collapse ul li a').click(function(){ 
+            $('.navbar-toggle:visible').click();
+    });
 
-       // when done, add hash to url
-       // (default click behaviour)
-       window.location.hash = hash;
-     });
+    // Offset for Main Navigation
+    $('#mainNav').affix({
+        offset: {
+            top: 100
+        }
+    })
 
-});
+})(jQuery); // End of use strict
